@@ -1,0 +1,12 @@
+file_type: csv
+dataset_name: chess
+file_name: games
+inbound_delimiter: ','
+outbound_delimiter: '|'
+columns:
+    - rated
+    - winner
+    - white_id
+    - black_id
+    - victory_status
+    - opening_name
